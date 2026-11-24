@@ -1,0 +1,28 @@
+{
+  "name": "course-marketplace",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.111.0",
+    "core-js": "^3.50.0",
+    "jspdf": "^4.2.1",
+    "pinia": "^4.0.2",
+    "vue": "^3.5.39",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-vue": "^6.0.7",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.1.1"
+  }
+}

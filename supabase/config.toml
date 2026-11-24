@@ -1,0 +1,20 @@
+# NOTA: Al agregar nuevas edge functions, agregarlas aquí con verify_jwt apropiado.
+# Por defecto Supabase usa verify_jwt = true.
+
+[functions.mp-webhook]
+verify_jwt = false
+
+[functions.chat-faq]
+verify_jwt = true
+
+[functions.embed-courses]
+verify_jwt = false
+
+[functions.create-payment]
+verify_jwt = true
+
+[functions.send-contact-message]
+verify_jwt = false
+
+[functions.mp-oauth-callback]
+verify_jwt = true

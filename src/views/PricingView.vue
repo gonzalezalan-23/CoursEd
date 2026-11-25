@@ -2,14 +2,11 @@
   <div class="min-h-screen bg-surface text-slate-100">
     <section class="relative px-6 py-20">
       <div class="mx-auto max-w-6xl">
-        <div class="mb-10 text-center">
+        <div class="mb-5 text-center">
           <p class="text-sm font-semibold uppercase tracking-[0.24em] text-cyan-400">Planes y precios</p>
-          <h1 class="mt-4 text-4xl font-extrabold leading-tight sm:text-5xl">
+          <h1 class="mt-3 text-4xl font-extrabold leading-tight sm:text-5xl">
             Elige el plan ideal para tu aprendizaje y crecimiento.
           </h1>
-          <p class="mx-auto mt-4 max-w-2xl text-base leading-7 text-slate-400 sm:text-lg">
-            Accede a cursos ilimitados, soporte premium y descuentos exclusivos según tu membresía.
-          </p>
         </div>
 
         <!-- Loading -->

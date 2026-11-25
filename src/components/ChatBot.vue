@@ -192,7 +192,7 @@ watch(isOpen, () => {
     >
       <div
         v-if="isOpen"
-        class="fixed inset-0 z-50 flex flex-col sm:inset-auto sm:bottom-24 sm:right-6 sm:w-[400px] sm:h-[560px] sm:rounded-2xl border border-slate-800 bg-surface shadow-2xl shadow-black/40"
+        class="fixed inset-0 z-100 flex flex-col sm:inset-auto sm:bottom-24 sm:right-6 sm:w-[400px] sm:h-[500px] sm:rounded-2xl border border-slate-800 bg-surface shadow-2xl shadow-black/40"
       >
         <!-- Header -->
         <div class="flex items-center gap-3 border-b border-slate-800 px-4 py-3">
